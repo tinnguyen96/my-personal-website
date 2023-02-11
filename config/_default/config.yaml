@@ -44,7 +44,9 @@ permalinks:
   publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  # https://wowchemy.com/docs/hugo-tutorials/troubleshooting/#error-failed-to-resolve-output-format
+  # says to remove the unncessary outputs headers and redirects
+  home:  [HTML, RSS, JSON, WebAppManifest] #[HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
