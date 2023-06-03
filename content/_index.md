@@ -59,6 +59,11 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Quant Research Intern
+          company: Quantbot Technologies LP
+          location: NY, New York
+          date_start: '2023-05-25'
+          date_end: '2023-08-25'
         - title: Research Intern
           company: IBM Research
           location: Cambridge, MA
