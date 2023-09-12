@@ -32,7 +32,7 @@ abstract: We present a weighted-majority classification approach over subtrees o
 # Summary. An optional shortened abstract.
 summary:
 
-tags: ["PAC-Bayes", "decision trees", "aggregation"]
+tags: ["Supervised Learning", "Statistical Learning Theory","Decision Trees"]
 
 # Display this page in the Featured widget?
 featured: 

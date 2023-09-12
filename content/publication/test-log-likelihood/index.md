@@ -37,7 +37,7 @@ abstract: Test log-likelihood is commonly used to compare different models of th
 # Summary. An optional shortened abstract.
 summary:
 
-tags: ["test log-likelihood", "forecast accuracy", "approximation quality"]
+tags: ["Evaluation"]
 
 # Display this page in the Featured widget?
 featured: 

@@ -36,7 +36,7 @@ abstract: Gaussian processes (GPs) are used to make medical and scientific decis
 # Summary. An optional shortened abstract.
 summary:
 
-tags: ["Gaussian process", "robustness"]
+tags: ["Bayesian Statistics", "Gaussian Process", "Robustness"]
 
 # Display this page in the Featured widget?
 featured: 

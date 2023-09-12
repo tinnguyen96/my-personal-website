@@ -33,7 +33,7 @@ abstract: Markov chain Monte Carlo (MCMC) methods are often used in clustering s
 # Summary. An optional shortened abstract.
 summary:
 
-tags: ["MCMC", "unbiased estimation"]
+tags: ["Bayesian Statistics", "Markov Chain Monte Carlo", "Unsupervised Learning"]
 
 # Display this page in the Featured widget?
 featured: true

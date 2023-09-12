@@ -30,8 +30,7 @@ abstract: Completely random measures (CRMs) and their normalizations (NCRMs) off
 # Summary. An optional shortened abstract.
 summary: 
 
-tags:
-- Source Themes
+tags: ["Bayesian Statistics", "Nonparametric", "Unsupervised Learning", "Topic Models"]
 
 # links:
 # - name: ""

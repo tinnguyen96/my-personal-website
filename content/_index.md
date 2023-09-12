@@ -12,6 +12,20 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
+  - block: tag_cloud
+    content:
+      title: Topics
+      subtitle: ""
+      text: ""
+      # text: My work has touched on the following topics
+      # Choose a taxonomy from the `taxonomies` list in `config.yaml` to display (e.g. tags, categories, authors)
+      taxonomy: tags
+      # Choose how many tags you would like to display (0 = all tags)
+      count: 10
+    design:
+      # Minimum and maximum font sizes (1.0 = 100%).
+      font_size_min: 0.7
+      font_size_max: 2.0
   - block: collection
     id: featured
     content:
@@ -64,18 +78,19 @@ sections:
           location: NY, New York
           date_start: '2023-05-25'
           date_end: '2023-08-25'
-        - title: Research Intern
-          company: IBM Research
-          location: Cambridge, MA
-          date_start: '2019-06-20'
-          date_end: '2019-08-23'
-          description: Reduced runtime of approximate cross-validation for structured models including hidden Markov models and conditional random fields.
+          description: 'Proposed feature engineering methodologies for trading US equities.'
         - title: Research Intern
           company: IBM Research
           location: Cambridge, MA
           date_start: '2022-06-01'
           date_end: '2022-08-22'
           description: Developed specification tests to reject the null hypothesis that neural networks trained on clean image data are well-specified for corrupted image data.
+        - title: Research Intern
+          company: IBM Research
+          location: Cambridge, MA
+          date_start: '2019-06-20'
+          date_end: '2019-08-23'
+          description: Reduced runtime of approximate cross-validation for structured models including hidden Markov models and conditional random fields.
     design:
       columns: '2'
   - block: accomplishments
@@ -112,31 +127,28 @@ sections:
             description: "2022"
           - name: TMLR Reviewer
             description: "2022"
-  # - block: portfolio
-  #   id: projects
-  #   content:
-  #     title: Projects
-  #     filters:
-  #       folders:
-  #         - project
-  #     # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-  #     default_button_index: 0
-  #     # Filter toolbar (optional).
-  #     # Add or remove as many filters (`filter_button` instances) as you like.
-  #     # To show all items, set `tag` to "*".
-  #     # To filter by a specific tag, set `tag` to an existing tag name.
-  #     # To remove the toolbar, delete the entire `filter_button` block.
-  #     buttons:
-  #       - name: All
-  #         tag: '*'
-  #       - name: Deep Learning
-  #         tag: Deep Learning
-  #       - name: Other
-  #         tag: Demo
-  #   design:
-  #     # Choose how many columns the section has. Valid values: '1' or '2'.
-  #     columns: '1'
-  #     view: showcase
-  #     # For Showcase view, flip alternate rows?
-  #     flip_alt_rows: false
+  
+  - block: portfolio
+    id: projects
+    content:
+      title: Projects
+      filters:
+        folders:
+          - project
+      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      default_button_index: 0
+      # Filter toolbar (optional).
+      # Add or remove as many filters (`filter_button` instances) as you like.
+      # To show all items, set `tag` to "*".
+      # To filter by a specific tag, set `tag` to an existing tag name.
+      # To remove the toolbar, delete the entire `filter_button` block.
+      buttons:
+        - name: All
+          tag: '*'
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+      view: showcase
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
 ---

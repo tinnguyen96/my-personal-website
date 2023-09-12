@@ -35,7 +35,7 @@ abstract: Prior knowledge and symbolic rules in machine learning are often expre
 # Summary. An optional shortened abstract.
 summary:
 
-tags: []
+tags: ["Statistical Learning Theory"]
 
 # Display this page in the Featured widget?
 featured: true

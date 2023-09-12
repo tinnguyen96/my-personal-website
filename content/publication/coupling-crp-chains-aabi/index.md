@@ -34,8 +34,7 @@ abstract: Computational couplings of Markov chains provide a practical route to 
 
 # Summary. An optional shortened abstract.
 summary:
-
-tags: ["MCMC", "unbiased estimation"]
+tags: ["Bayesian Statistics", "Markov Chain Monte Carlo"]
 
 # Display this page in the Featured widget?
 featured: true

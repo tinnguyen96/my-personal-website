@@ -37,7 +37,7 @@ abstract: Many modern data analyses benefit from explicitly modeling dependence 
 # Summary. An optional shortened abstract.
 summary:
 
-tags: ["Structured models", "Leave-one-out cross-validation"]
+tags: ["Hidden Markov Models", "Conditional Random Fields", "Cross-Validation"]
 
 # Display this page in the Featured widget?
 featured: 

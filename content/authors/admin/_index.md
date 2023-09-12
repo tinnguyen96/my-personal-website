@@ -72,5 +72,5 @@ email: ''
 highlight_name: true
 ---
 
-Tin Nguyen is a PhD Student at MIT. He is advised by Tamara Broderick. His research develops computational methods for inference and sensitivity detection in Bayesian inference. 
+Tin Nguyen is a PhD Student at MIT. He is advised by Tamara Broderick. His research develops computational methods for inference and sensitivity detection in Bayesian models. 
 {style="text-align: justify;"}
