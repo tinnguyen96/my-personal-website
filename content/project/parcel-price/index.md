@@ -24,10 +24,8 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-Using Boston’s property assessment data, I built a prediction system for the price of a land parcel.
-
+Using [Boston’s property assessment data](https://data.boston.gov/dataset/property-assessment), I built a prediction system for the price of a land parcel using its physical attributes. 
 Stakeholders who might use the predictions are the city of Boston itself (to determine property tax) and homeowners (to find a fair value for their purchase).
-
-I used pandas to manipulate csvs, sklearn to preprocess (removing outliers, imputing missing features) and cross validate, LightGBM to fit learner. 
-
-The built system is reasonably accurate: the average absolute percentage error is only 15%. 
+I used pandas to manipulate csvs, sklearn to preprocess (removing outliers, imputing missing features) and cross-validate, and finall LightGBM to fit learner. 
+On single-household residences, the system is reasonably accurate: the average absolute percentage error is about 25%. 
+The most important predictive feature is the total living area.
