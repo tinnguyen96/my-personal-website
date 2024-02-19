@@ -12,11 +12,8 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - "first-contribution"
-  - "first-contribution"
-  - "first-contribution"
 
-date: '2022-12-01T00:00:00Z'
+date: '2024-01-14T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -26,13 +23,13 @@ publishDate: '2022-12-01T00:00:00Z'
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['3']
+publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
-publication: In I Can't Belive It's Not Better Workshop at Neural Information Processing Systems 2022
-publication_short: In *ICBINB Workshop at NeurIPS 2022*
+publication: In Transactions on Machine Learning Research
+publication_short: In *TMLR*
 
-abstract: Test log-likelihood is commonly used to compare different models of the same data and different approximate inference algorithms for fitting the same probabilistic model. We present simple examples demonstrating how comparisons based on test log-likelihood can contradict comparisons according to other objectives. Specifically, our examples show that (i) conclusions about forecast accuracy based on test log-likelihood comparisons may not agree with conclusions based on other distributional quantities like means; and (ii) that approximate Bayesian inference algorithms that attain higher test log-likelihoods need not also yield more accurate posterior approximations.
+abstract: Test log-likelihood is commonly used to compare different models of the same data or different approximate inference algorithms for fitting the same probabilistic model. We present simple examples demonstrating how comparisons based on test log-likelihood can contradict comparisons according to other objectives. Specifically, our examples show that (i) approximate Bayesian inference algorithms that attain higher test log-likelihoods need not also yield more accurate posterior approximations and (ii) conclusions about forecast accuracy based on test log-likelihood comparisons may not agree with conclusions based on root mean squared error.
 
 # Summary. An optional shortened abstract.
 summary:
@@ -47,14 +44,14 @@ featured:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2212.00219.pdf'
+url_pdf: 'https://openreview.net/pdf?id=n2YifD4Dxo'
 url_code: ''
 url_dataset: ''
 url_poster: uploads/test-log-likelihood/poster.pdf
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: ''
+url_video: 'https://tmlr.infinite-conf.org/paper_pages/n2YifD4Dxo.html'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
