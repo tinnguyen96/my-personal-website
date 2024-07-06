@@ -14,26 +14,26 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD Student
+role: Quantitative Researhcer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Massachusetts Institute of Technology
-    url: https://www.mit.edu/
+  - name: Quantbot Technologies LP
+    url: https://www.quantbot.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include scalable and robust Bayesian inference.
+bio: 
 
 # Interests to show in About widget
 interests:
-  - Bayesian inference
+  - 
 
 # Education to show in About widget
 education:
   courses:
     - course: PhD in Electrical Engineering and Computer Science
       institution: Massachusetts Institute of Technology
-      year: 2023
+      year: 2024
     - course: (en route) Master's in Electrical Engineering and Computer Science
       institution: Massachusetts Institute of Technology
       year: 2020
@@ -48,7 +48,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:tdn@mit.edu
+    link: mailto:tindanh.nguyen96@gmail.com
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?hl=en&user=djheYP0AAAAJ
@@ -72,5 +72,7 @@ email: ''
 highlight_name: true
 ---
 
-Tin Nguyen is a PhD Student at MIT. He is advised by Tamara Broderick. His research develops computational methods for inference and sensitivity detection in Bayesian models. 
+Tin Nguyen is a Quantitative Researcher at [Quantbot Technologies, LP](https://www.quantbot.com/). 
+Previously, he was a PhD at MIT EECS, advised by [Tamara Broderick](https://tamarabroderick.com/). 
+His research developed computational methods for inference and sensitivity detection in Bayesian models. 
 {style="text-align: justify;"}

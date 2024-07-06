@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2024-07-06
 type: landing
 
 sections:
@@ -96,7 +96,11 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Quant Research Intern
+        - title: Quantitative Researcher
+          company: Quantbot Technologies LP
+          location: NY, New York
+          date_start: '2024-06-16'
+        - title: Intern
           company: Quantbot Technologies LP
           location: NY, New York
           date_start: '2023-05-25'
