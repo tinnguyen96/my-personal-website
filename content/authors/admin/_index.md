@@ -73,6 +73,6 @@ highlight_name: true
 ---
 
 Tin Nguyen is a Quantitative Researcher at [Quantbot Technologies, LP](https://www.quantbot.com/). 
-Previously, he was a PhD at MIT EECS, advised by [Tamara Broderick](https://tamarabroderick.com/). 
+Previously, he was a PhD student at MIT EECS, advised by [Tamara Broderick](https://tamarabroderick.com/). 
 His research developed computational methods for inference and sensitivity detection in Bayesian models. 
 {style="text-align: justify;"}
