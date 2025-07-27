@@ -7,8 +7,8 @@ title: 'Approximations to worst-case data dropping: unmasking failure modes'
 authors:
   - Jenny Y. Huang
   - David R. Burt
-  - admin
   - Yunyi Shen
+  - admin
   - Tamara Broderick
 
 # Author notes (optional)
@@ -18,19 +18,19 @@ date: '2024-08-12T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-08-01T00:00:00Z'
+publishDate: '2025-07-20T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['3']
+publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
-publication: 
-publication_short: 
+publication: Transactions of Machine Learning Research
+publication_short: TMLR
 
-abstract: 'A data analyst might worry about generalization if dropping a very small fraction of data points from a study could change its substantive conclusions. Finding the worst-case data subset to drop poses a combinatorial optimization problem. To overcome this intractability, recent works propose using additive approximations, which treat the contribution of a collection of data points as the sum of their individual contributions, and greedy approximations, which iteratively select the point with the highest impact to drop and re-run the data analysis without that point [Broderick et al., 2020, Kuschnig et al., 2021]. We identify that, even in a setting as simple as OLS linear regression, many of these approximations can break down in realistic data arrangements. Several of our examples reflect masking, where one outlier may hide or conceal the effect of another outlier. Based on the failures we identify, we provide recommendations for users and suggest directions for future improvements.'
+abstract: 'A data analyst might worry about generalization if dropping a very small fraction of data points from a study could change its substantive conclusions. Checking this non-robustness directly poses a combinatorial optimization problem and is intractable even for simple models and moderate data sizes. Recently various authors have proposed a diverse set of approximations to detect this non-robustness. In the present work, we show that, even in a setting as simple as ordinary least squares (OLS) linear regression, many of these approximations can fail to detect (true) non-robustness in realistic data arrangements. We focus on OLS in the present work due its widespread use and since some approximations work only for OLS. Across our synthetic and real-world data sets, we find that a simple recursive greedy algorithm is the sole algorithm that does not fail any of our tests and also that it can be orders of magnitude faster to run than some competitors.'
 
 # Summary. An optional shortened abstract.
 summary: 
@@ -45,8 +45,8 @@ featured:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2408.09008'
-url_code: ''
+url_pdf: 'https://openreview.net/pdf?id=m6EQ6YdPXV'
+url_code: 'https://github.com/JennyHuang19/DataDroppingFailureModes'
 url_dataset: ''
 url_poster: ''
 url_project: ''
